@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+#gameboard {
+  width: 610px;
+  height: 610px;
+  margin: auto;
+  border: solid 5px black;
+}
+
+.gamespace {
+  width: 15px;
+  height: 15px;
+  border: solid 0.5px black;
+  float: left;
+  background-color: #9ABB0F;
+}
+
+#snakehead {
+  width: 15px;
+  height: 15px;
+  border: solid 0.5px black;
+  border-radius: 1px;
+  background-color: black;
+  float: left;
+}
+
