@@ -49,8 +49,32 @@ body {
   height: 15px;
   border: solid 0.5px black;
   border-radius: 1px;
-  background-color: black;
+  background-color: #9ABB0F;
+  background-image: url( "assets/snake-head-icon.png" );
+  background-size: cover;
   float: left;
+}
+
+.body {
+  width: 15px;
+  height: 15px;
+  border: solid 0.5px black;
+  border-radius: 1px;
+  background-color: #9ABB0F;
+  background-image: url( "assets/snake-body.png" );
+  background-size: cover;
+  float: left;
+}
+
+.food {
+  width: 15px;
+  height: 15px;
+  border: solid 0.5px black;
+  border-radius: 1px;
+  background-color: #9ABB0F;
+  background-image: url( "assets/candy-icon.png" );
+  background-size: cover;
+  float: left;  
 }
 
 
